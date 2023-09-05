@@ -1,0 +1,146 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+ 
+    padding: 0;
+   
+    
+}
+
+body{
+    background: #3d767ad3;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#player{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+  
+
+}
+
+#point{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;
+}
+
+
+#p1,#p2{
+ font-size: 20px;
+
+}
+
+.cont{
+    display:grid;
+
+}
+.row,.row2,.row3{
+place-self: center;
+
+}
+
+#a{
+    border-left: none;
+    border-top: none;
+    margin-right: -5px;
+    border-right: 5px solid black;
+ 
+}
+
+#b{
+    border-top: none;
+}
+#c{
+    border-right: none;
+    border-top: none;
+    margin-left: -5px;
+    border-left: 5px solid black;
+}
+
+#d{
+    border-left: none;
+    border-top: 5px solid black;
+    margin-right: -5px;
+    border-right: 5px solid black;
+ 
+}
+
+#e{
+    border-top:5px solid black;
+    margin-top: -5px;
+}
+#f{
+    border-right: none;
+    border-top: 5px solid black;
+    margin-left: -5px;
+    border-left: 5px solid black;
+}
+
+#g{
+    border-left: none;
+    border-bottom: none;
+    border-top: 5px solid black;
+    margin-right: -5px;
+    border-right: 5px solid black;
+ 
+}
+
+#h{
+    border-top:5px solid black;
+    margin-top: -5px;
+    border-bottom: none;
+}
+#i{
+    border-right: none;
+    border-bottom: none;
+    border-top: 5px solid black;
+    margin-left: -5px;
+    border-left: 5px solid black;
+}
+
+input{
+    height: 100px;
+    width: 120px;
+   text-align: center;
+   font-size: 50px;
+   text-decoration: none;
+   row-gap: 0;
+column-gap: 0;
+}
+
+input:focus{
+outline: none;
+}
+
+input:disabled{
+    background: #ffffff;
+    color: black;
+}
+
+#contWR{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;}
+
+#wr{
+    font-size: 20px;
+    color: black;
+}
+
+#turnoC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#turno{
+    font-size: 30px;
+}

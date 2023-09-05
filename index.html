@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+<!--font-family: 'Josefin Sans', sans-serif;-->
+
+<link rel="stylesheet" href="style.css">
+
+    <title>TicTacToeGame</title>
+</head>
+<body>
+
+<h1>TicTacToeGame</h1>
+
+
+<div id="turnoC"> 
+    <p id="turno">Turno di X</p>
+    
+</div>
+
+<div id="player"> 
+    <p id="p1">Player 1</p>
+    <p id="p2">Player 2</p>
+</div>
+
+<div id="point">   
+    <p id="pt1">0</p>
+    <p id="pt2">0</p>
+</div>
+
+
+
+<div class="cont">
+<div class="row">
+    <input id="a" type="text" onclick="first()  " readonly >
+    <input id="b" type="text" onclick="second()" readonly>
+    <input id="c" type="text" onclick="third()" readonly>
+</div>
+</div>
+
+<div class="cont">
+<div class="row2">
+    <input id="d" type="text" onclick="fourth()"readonly>
+    <input id="e" type="text" onclick="fifth()"readonly>
+    <input id="f" type="text" onclick="sixth()"readonly>
+  
+</div>
+</div>
+
+<div class="cont">
+<div class="row3">
+    <input id="g" type="text" onclick="seventh()"readonly>
+    <input id="h" type="text" onclick="eighth()"readonly>
+    <input id="i" type="text" onclick="ninth()"readonly>
+</div>
+</div>
+
+<div id="contWR">   
+    <p id="wr"></p>
+ </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
